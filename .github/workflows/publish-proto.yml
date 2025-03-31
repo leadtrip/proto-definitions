@@ -3,7 +3,7 @@ name: Publish Proto Definitions
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   publish:
