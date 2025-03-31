@@ -33,7 +33,8 @@ publishing {
             name = "repsy"
             url = uri("https://repo.repsy.io/mvn/mikew01/default")
             credentials {
-
+                username = System.getenv("REPSY_USERNAME")
+                password = System.getenv("REPSY_PASSWORD")
             }
         }
     }
